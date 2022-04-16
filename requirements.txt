@@ -1,0 +1,12 @@
+flask
+discord
+httpx
+psutil
+plyer
+art
+playsound
+pystyle
+colour
+colorama
+sty
+jwt
